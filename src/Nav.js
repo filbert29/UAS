@@ -5,6 +5,8 @@ import ExploreIcon from '@material-ui/icons/Explore';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import InfoIcon from '@material-ui/icons/Info';
 import {Link} from 'react-router-dom'
+import './App.css'
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -29,7 +31,7 @@ function Nav() {
     return (
         <nav>
             <ul className={classes.root}>
-                <div>
+                <div className="navigation">
                   <Link to='/Post'>
                   <HomeIcon className="homeicon" fontSize="large" ></HomeIcon>
                   </Link>
@@ -41,6 +43,8 @@ function Nav() {
                   <Link to='/Tags'>
                   <WhatshotIcon className="whatshoticon" fontSize="large" ></WhatshotIcon>
                   </Link>
+
+                 
 
                   <Link to='/Aboutus'>
                   <InfoIcon className="infoicon" fontSize="large" ></InfoIcon>

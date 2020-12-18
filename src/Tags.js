@@ -1,7 +1,8 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import axios from 'axios';
 import Templatetags from './Templatetags';
 import APP_ID from './key';
+import './Tags.css'
 
 const BASE_URL = 'https://dummyapi.io/data/api';
 
@@ -23,8 +24,8 @@ class Tags extends Component {
 
     render(){
         return(
-            <Fragment>
-                <p className="title">Tags</p>
+            <div>
+                
                 <div className="tags">
                 {
                     this.state.data.map(data => {
@@ -35,7 +36,7 @@ class Tags extends Component {
                     })
                 }
                 </div>
-            </Fragment>
+            </div>
         )
     }
 }

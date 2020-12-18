@@ -9,7 +9,7 @@ const Templatefullprofile = (props) => {
                 <div className="id-name">
                     <p className="id">{props.id}</p>
                     <p className="fullName">{props.fullName}</p>
-                    <p className="link-post">link post</p>
+                   
                 </div>
             </div>
             <div className="jenis-data">

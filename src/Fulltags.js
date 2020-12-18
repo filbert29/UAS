@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Fragment, Component} from 'react'
+import React, {Fragment, Component} from 'react'
 import { Grid } from '@material-ui/core';
 import Templatepost from './Templatepost';
 import axios from 'axios';
@@ -33,6 +33,7 @@ class Fulltags extends Component {
                         this.state.data.map(data => {
                             return <Templatepost
                                 key={data.id} 
+                                id = {data.owner.id}
                                 image={data.image} 
                                 picture={data.owner.picture}
                                 fullName={data.owner.firstName+" "+data.owner.lastName}

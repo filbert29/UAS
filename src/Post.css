@@ -1,9 +1,19 @@
 .all {
-    background-color: honeydew;
+   background-color:whitesmoke;
+    position: relative;
+    top: 25px;
+    border-radius: 25px;
+    display: inline-flex;
+    bottom: 15px;
+   
+
 }
 
+
+
+
 .card {
-    border: 1px solid rgba(128,128,128,0.5);
+    
     border-radius: 5px;
     margin-bottom: 20px;
 }

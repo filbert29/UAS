@@ -3,7 +3,7 @@ import './Userlist.css';
 import Templateuser from './Templateuser';
 import axios from 'axios';
 import APP_ID from './key';
-import SearchBox from './SearchBox';
+import Searchbox from './Seachbox';
 
 const BASE_URL = 'https://dummyapi.io/data/api';
 
@@ -36,8 +36,8 @@ class Userlist extends Component {
         return(
             <Fragment>
                 <div className="all">
-                    <p className="title">Profile</p>
-                    <SearchBox placeholder="Search..." handleChange={(e) => this.setState({searchField:e.target.value})}/>
+                    
+                    <Searchbox placeholder="Search..." handleChange={(e) => this.setState({searchField:e.target.value})}/>
                     <div className="data">
                         {filteredfirstName.length === 0? "Data Not Found": 
                             filteredfirstName.map(data => {
@@ -48,7 +48,7 @@ class Userlist extends Component {
                                 fullName={data.firstName+" "+data.lastName} 
                                 email={data.email} />
                             })
-                        }
+                        }   
                     </div>
                 </div>
             </Fragment>

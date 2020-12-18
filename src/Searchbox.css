@@ -1,0 +1,11 @@
+input{
+    position: relative;
+    top: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+
+}

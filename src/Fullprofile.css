@@ -1,15 +1,18 @@
-
 .profile {
     background-color: white;
-    border: 3px solid black;
+    
     margin-left: 20px;
     margin-right: 20px;
-    display: inline-flex;
+    position: relative;
+    top: 25px;
+    display: flex;
     padding: 20px;
     padding-bottom: 0px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
+
+
 
 .picture-profile {
     margin-right: 40px;
@@ -47,35 +50,4 @@
 .id-name .link-post {
     font-size: 13px;
     margin-top: 0px;
-}
-
-.jenis-data .dateOfBirth {
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.jenis-data .gender {
-    margin-bottom: 0px;
-}
-
-.jenis-data .registerDate {
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-.jenis-data .email {
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-.jenis-data .phone {
-    margin-top: 37px;
-}
-
-.data-profile .registerDate {
-    margin-top: 33px;
-}
-
-.data-profile .email {
-    margin-top: 22px;
 }

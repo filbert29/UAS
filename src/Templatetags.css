@@ -1,0 +1,21 @@
+.cover{
+    height: 70px;
+    margin: 10px;
+    width: 350px;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+h2{
+    color: purple;
+    text-decoration: none;
+    list-style: none;
+}

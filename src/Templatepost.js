@@ -10,6 +10,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import {Link} from 'react-router-dom'
+import './Templatepost.css';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -39,23 +41,24 @@ function Templatepost(props) {
   
   
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
   
 
 
   return (
       <div className="card">
-          <Card className={classes.root}>
+          <Card className={classes.root} id="card">
+      
+      <Link to={`/Userlist/${props.id}`}> 
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
             <img src={props.picture} />
           </Avatar>
         }
-        
         title={props.fullName} //masukin yang nama owner
-        subheader={props.email} // masukin yang email
+        
       />
+      </Link>
       <CardMedia
         className={classes.media}
         image={props.image} // masukin yang image post
@@ -65,9 +68,7 @@ function Templatepost(props) {
         <Typography variant="body1" color="textPrimary" component="p">
           {props.text}
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
-          {props.link}
-        </Typography>
+        
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">

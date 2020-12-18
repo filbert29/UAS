@@ -1,4 +1,4 @@
-import React, {Fragment, Component} from 'react';
+import React, { Fragment, Component} from 'react';
 import Templatefullprofile from './Templatefullprofile';
 import './Fullprofile.css';
 import APP_ID from './key';
@@ -38,7 +38,7 @@ class Fullprofile extends Component {
         console.log(this.state.location)
         return(
             <Fragment>
-                <div className="all">
+               
                     <Grid container direction="row" justify="center" alignItems="center">
                     <div className="post">
                     <Templatefullprofile 
@@ -55,50 +55,9 @@ class Fullprofile extends Component {
                         />
                     </div>
                     </Grid>
-                </div>
+                
             </Fragment>
         )
     }
 }
 export default Fullprofile;
-
-// function Fullprofile({match}) {
-//     console.log(match)
-//     useEffect(() => {
-//         fetchItem();
-//     }, []);
-
-//     const[item,setItem] = useState({});
-
-//     const fetchItem = async () => {
-//         const fetchItem = await fetch(
-//             `https://dummyapi.io/data/api/user/${match.params.id}`, { headers: { 'app-id': APP_ID } }
-//         );
-//         const item = await fetchItem.json();
-//             setItem(item);
-        
-//     };
-
-//     console.log(item);
-
-//         return(
-//             <Fragment>
-//                 <p className="title">Profile</p>
-//                 <Templatefullprofile 
-//                 key={item.id} 
-//                 id={item.id} 
-//                 picture={item.picture} 
-//                 fullName={item.title+". "+item.firstName+" "+item.lastName} 
-//                 email={item.email}
-//                 gender={item.gender}
-//                 dateOfBirth={item.dateOfBirth}
-//                 registerDate={item.registerDate}
-//                 phone={item.phone}
-//                 fullLocation={item.phone}
-//                 />
-//             </Fragment>
-//         )
-    
-// }
-
-// export default Fullprofile;

@@ -7,10 +7,10 @@
 
 .profile-card {
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: none;
     width: 500px;
     padding: 10px;
-    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+   
     border-radius: 20px;
     margin-bottom: 20px;
     margin-left: 20px;

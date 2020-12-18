@@ -1,3 +1,3 @@
-const key = "5fdbb0162cbbd0c48f8811a5";
+const key = "5fdca5aa3d3e1816fa1345c1";
 
 export default key;

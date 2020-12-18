@@ -1,0 +1,16 @@
+.profile-card{
+    position: relative;
+    display: flex;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   
+    text-align: center;
+    top: 15px;
+    background-color: white;
+}
+
+.fullName{
+    text-decoration: none;
+}

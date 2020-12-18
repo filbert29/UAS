@@ -11,7 +11,6 @@ class App extends Component {
     state = {
         data: []
     }
-    
 
     componentDidMount(){
         axios.get(`${BASE_URL}/post`, { headers: { 'app-id': APP_ID } })
@@ -34,6 +33,7 @@ class App extends Component {
                         this.state.data.map(data => {
                             return <Templatepost
                                 key={data.id} 
+                                id={data.owner.id} 
                                 image={data.image} 
                                 picture={data.owner.picture}
                                 fullName={data.owner.firstName+" "+data.owner.lastName}
