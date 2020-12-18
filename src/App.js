@@ -7,9 +7,9 @@ import Tags from './Tags';
 import FullProfile from './Fullprofile'
 import Nav from './Nav'
 import FullTags from './Fulltags'
-import {BrowserRouter as Router, Switch, Route, Link, BrowserRouter} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Aboutus from './Aboutus';
-import { Button, makeStyles, Container, Grid, FormControlLabel } from '@material-ui/core'
+import {Container, Grid} from '@material-ui/core'
 
 
 class App extends Component {

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Fragment, Component} from 'react';
+import React, {Fragment, Component} from 'react';
 import Templatefullprofile from './Templatefullprofile';
 import './Fullprofile.css';
 import APP_ID from './key';
