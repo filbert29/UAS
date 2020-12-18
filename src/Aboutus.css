@@ -1,0 +1,49 @@
+.header img {
+    width: 120px;
+    height: 60px;
+}
+
+.kartu-mahasiswa {
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgba(153, 255, 255, 0.5);
+}
+
+.foto-muka img {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    width: 90px;
+    height: 130px;
+}
+
+.data-diri {
+    text-align: center;
+
+}
+
+.nim {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.nama {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.jurusan {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.tanggal {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}

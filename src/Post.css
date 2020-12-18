@@ -1,0 +1,9 @@
+.all {
+    background-color: honeydew;
+}
+
+.card {
+    border: 1px solid rgba(128,128,128,0.5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
